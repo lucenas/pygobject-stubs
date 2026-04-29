@@ -4,7 +4,7 @@ from typing import Generic
 from typing import Protocol
 from typing import type_check_only
 from typing import TypeVar
-from typing_extensions import Self
+from typing import Self
 
 from collections.abc import Callable
 from collections.abc import Iterable
