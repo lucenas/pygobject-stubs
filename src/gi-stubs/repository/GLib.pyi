@@ -1,8 +1,8 @@
 from typing import Any
 from typing import Final
+from typing import Self
 from typing import TypeVar
 from typing import TypeVarTuple
-from typing_extensions import Self
 
 from collections.abc import Callable
 from collections.abc import Iterable
