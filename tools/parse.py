@@ -1,7 +1,7 @@
 from typing import cast
 from typing import Final
-from typing import TypeAlias
 from typing import Self
+from typing import TypeAlias
 
 import ast
 import re
