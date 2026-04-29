@@ -1,7 +1,7 @@
 from typing import Any
 from typing import overload
-from typing import TypeVar
 from typing import Self
+from typing import TypeVar
 
 import os
 from collections.abc import Callable
