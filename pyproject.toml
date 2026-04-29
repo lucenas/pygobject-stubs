@@ -88,4 +88,4 @@ section-order = ["future", "typing", "standard-library", "third-party", "first-p
 typing = ["_typeshed", "typing", "typing_extensions"]
 
 [tool.pyright]
-pythonVersion = "3.10"
+pythonVersion = "3.11"
