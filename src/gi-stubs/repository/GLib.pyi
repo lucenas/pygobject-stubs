@@ -736,9 +736,9 @@ def intern_string(string: str | None = None) -> str: ...
 
 # override
 def io_add_watch(
-    channel: IOChannel,
+    channel: IOChannel | int,
     priority: int,
-    condition: IOChannel,
+    condition: IOCondition,
     func: Callable[[IOChannel, IOCondition, Unpack[_DataTs]], bool],
     *user_data: Unpack[_DataTs],
 ) -> int:
